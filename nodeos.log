@@ -1,0 +1,96 @@
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             wasm-runtime, p2p-listen-endpoint, disable-subjective-billing, state-history-dir
+             
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+opened GELF socket to endpoint 10.10.10.10:12201
+[0minfo  2023-05-23T21:37:54.594 nodeos    chain_plugin.cpp:476          plugin_initialize    ] initializing chain plugin[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:835    operator()           ] Support for builtin protocol feature 'PREACTIVATE_FEATURE' (with digest of '0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd') is enabled without activation restrictions[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'ONLY_LINK_TO_EXISTING_PERMISSION' (with digest of '1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'FORWARD_SETCODE' (with digest of '2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'WTMSIG_BLOCK_SIGNATURES' (with digest of '299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'GET_BLOCK_NUM' (with digest of '35c2186cc36f7bb4aeaf4487b36e57039ccf45a9136aa856a5d569ecca55ef2b') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'REPLACE_DEFERRED' (with digest of 'ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'NO_DUPLICATE_DEFERRED_ID' (with digest of '4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'RAM_RESTRICTIONS' (with digest of '4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'WEBAUTHN_KEY' (with digest of '4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.596 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'BLOCKCHAIN_PARAMETERS' (with digest of '5443fcf88330c586bc0e5f3dee10e7f63c76c00249c87fe4fbf7f38c082006b4') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'DISALLOW_EMPTY_PRODUCER_SCHEDULE' (with digest of '68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'CRYPTO_PRIMITIVES' (with digest of '6bcb40a24e49c26d0a60513b6aeb8551d264e4717f306b81a37a5afb3b47cedc') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'ONLY_BILL_FIRST_AUTHORIZER' (with digest of '8ba52fe7a3956c5cd3a656a3174b931d3bb2abb45578befc59f283ecd816a405') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'RESTRICT_ACTION_TO_SELF' (with digest of 'ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'GET_CODE_HASH' (with digest of 'bcd2a26394b36614fd4894241d3c451ab0f6fd110958c3423073621a70826e99') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'ACTION_RETURN_VALUE' (with digest of 'c3a6138c5061cf291310887c0b5c71fcaffeab90d5deb50d3b9e687cead45071') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'CONFIGURABLE_WASM_LIMITS2' (with digest of 'd528b9f6e9693f45ed277af93474fd473ce7d831dae2180cca35d907bd10cb40') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'FIX_LINKAUTH_RESTRICTION' (with digest of 'e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526') is enabled with preactivation required[0m
+[0minfo  2023-05-23T21:37:54.597 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'GET_SENDER' (with digest of 'f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d') is enabled with preactivation required[0m
+[32mdebug 2023-05-23T21:37:54.597 nodeos    resource_monitor_plugi:154    monitor_directory    ] /root/.local/share/eosio/nodeos/data/blocks registered to be monitored[0m
+[32mdebug 2023-05-23T21:37:54.597 nodeos    resource_monitor_plugi:154    monitor_directory    ] /root/.local/share/eosio/nodeos/data/state registered to be monitored[0m
+[0minfo  2023-05-23T21:37:54.612 nodeos    subst_plugin.cpp:235          plugin_initialize    ] installed substitution hook[0m
+[0minfo  2023-05-23T21:37:54.612 nodeos    net_plugin.cpp:3685           plugin_initialize    ] Initialize net plugin[0m
+[0minfo  2023-05-23T21:37:54.612 nodeos    http_plugin.cpp:258           plugin_initialize    ] configured http to listen on 0.0.0.0:8888[0m
+[32mdebug 2023-05-23T21:37:54.613 nodeos    producer_plugin.cpp:1076      plugin_initialize    ] disable-subjective-billing: true, disable-subjective-p2p-billing: true, disable-subjective-api-billing: true[0m
+[0minfo  2023-05-23T21:37:54.613 nodeos    producer_plugin.cpp:1084      plugin_initialize    ] Subjective CPU billing disabled[0m
+[32mdebug 2023-05-23T21:37:54.613 nodeos    resource_monitor_plugi:154    monitor_directory    ] /root/.local/share/eosio/nodeos/data/snapshots registered to be monitored[0m
+[0minfo  2023-05-23T21:37:54.613 nodeos    producer_plugin.cpp:1124      plugin_initialize    ] chain_api_plugin configured, defaulting read-only-threads to 3[0m
+[0minfo  2023-05-23T21:37:54.613 nodeos    producer_plugin.cpp:1157      plugin_initialize    ] vm total in kb: 34359738367, vm used in kb: 24700, number of EOS VM OC threads supported ((vm total - vm used)/4.2 TB - 2): 6, max allowed: 8, actual allowed: 6[0m
+[0minfo  2023-05-23T21:37:54.613 nodeos    producer_plugin.cpp:1181      plugin_initialize    ] ro_thread_pool_size 3, ro_write_window_time_us 200000, ro_read_window_time_us 2000000, ro_max_trx_time_us 500000, ro_read_window_effective_time_us 1990000[0m
+[32mdebug 2023-05-23T21:37:54.613 nodeos    resource_monitor_plugi:154    monitor_directory    ] /root/.local/share/eosio/nodeos/data/state-history registered to be monitored[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    log.hpp:712                   open_log             ] trace_history.log is empty[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    log.hpp:712                   open_log             ] chain_state_history.log is empty[0m
+[32mdebug 2023-05-23T21:37:54.614 nodeos    resource_monitor_plugi:67     plugin_initialize    ] plugin_initialize[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    resource_monitor_plugi:73     plugin_initialize    ] Monitoring interval set to 2[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    resource_monitor_plugi:89     plugin_initialize    ] Space usage threshold set to 90%[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    resource_monitor_plugi:99     plugin_initialize    ] Shutdown flag when threshold exceeded set to true[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    resource_monitor_plugi:106    plugin_initialize    ] Warning interval set to 30[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    http_plugin.cpp:172           operator()           ] configured http with Access-Control-Allow-Origin: *[0m
+[32mdebug 2023-05-23T21:37:54.614 nodeos    resource_monitor_plugi:154    monitor_directory    ] /root/.local/share/eosio/nodeos/data registered to be monitored[0m
+[0minfo  2023-05-23T21:37:54.614 nodeos    main.cpp:142                  main                 ] nodeos version v4.0.0 v4.0.0-d2173d817453a77c4d3c5e353410d5f99e638e1b[0m
+[0minfo  2023-05-23T21:37:54.615 nodeos    main.cpp:143                  main                 ] nodeos using configuration file /root/target/config.ini[0m
+[0minfo  2023-05-23T21:37:54.615 nodeos    main.cpp:144                  main                 ] nodeos data directory is /root/.local/share/eosio/nodeos/data[0m
+[0minfo  2023-05-23T21:37:54.615 nodeos    controller.cpp:592            startup              ] Starting initialization from snapshot, this may take a significant amount of time[0m
+[0minfo  2023-05-23T21:38:32.196 nodeos    controller.cpp:607            startup              ] Finished initialization from snapshot[0m
+[0minfo  2023-05-23T21:38:32.197 nodeos    chain_plugin.cpp:1121         plugin_startup       ] starting chain in read/write mode[0m
+[0minfo  2023-05-23T21:38:32.197 nodeos    chain_plugin.cpp:1129         plugin_startup       ] Blockchain started; head block is #180635436[0m
+[0minfo  2023-05-23T21:38:32.197 nodeos    account_query_db.cpp:143      build_account_query_ ] Building account query DB[0m
+[0minfo  2023-05-23T21:38:40.933 nodeos    account_query_db.cpp:163      build_account_query_ ] Finished building account query DB in 8.73567300000000024[0m
+[0minfo  2023-05-23T21:38:40.938 nodeos    subst_plugin.cpp:22           debug_print_maps     ] Loaded substitutions:[0m
+[0minfo  2023-05-23T21:38:40.938 nodeos    subst_plugin.cpp:32           debug_print_maps     ] 194688fa7d856217d52387e7c30f21a17090cd33df47a4cee9c3146c591796fa -> e8689c50605cd7626730376996ac9b944cc15efac7536d9a1909ec9942ce4e0b[0m
+[0minfo  2023-05-23T21:38:40.938 nodeos    net_plugin.cpp:3800           plugin_startup       ] my node_id is b03f8d2445b0f5595ff9b54f95a556589db8c807d32f6a56f996445ea49f177e[0m
+[0minfo  2023-05-23T21:38:40.938 nodeos    producer_plugin.cpp:1222      plugin_startup       ] producer plugin:  plugin_startup() begin[0m
+[0minfo  2023-05-23T21:38:40.955 nodeos    producer_plugin.cpp:1290      plugin_startup       ] producer plugin:  plugin_startup() end[0m
+[0minfo  2023-05-23T21:38:40.955 nodeos    chain_api_plugin.cpp:66       plugin_startup       ] starting chain_api_plugin[0m
+[0minfo  2023-05-23T21:38:40.955 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_info[0m
+[0minfo  2023-05-23T21:38:40.955 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/compute_transaction[0m
+[0minfo  2023-05-23T21:38:40.956 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_abi[0m
+[0minfo  2023-05-23T21:38:40.956 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_account[0m
+[0minfo  2023-05-23T21:38:40.956 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_activated_protocol_features[0m
+[0minfo  2023-05-23T21:38:40.956 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_block_header_state[0m
+[0minfo  2023-05-23T21:38:40.956 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_block_info[0m
+[0minfo  2023-05-23T21:38:40.956 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_code[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_code_hash[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_consensus_parameters[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_currency_balance[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_currency_stats[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_producer_schedule[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_producers[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_raw_abi[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_raw_code_and_abi[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_required_keys[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_scheduled_transactions[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_table_by_scope[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_table_rows[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_transaction_id[0m
+[0minfo  2023-05-23T21:38:40.957 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/push_transaction[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/push_transactions[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/send_read_only_transaction[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/send_transaction[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/send_transaction2[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/push_block[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:378           add_async_handler    ] add api url: /v1/chain/get_accounts_by_authorizers[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:378           add_async_handler    ] add api url: /v1/chain/get_block_header[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:378           add_async_handler    ] add api url: /v1/chain/get_raw_block[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_block[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    state_history_plugin.c:489    plugin_startup       ] Storing initial state on startup, this can take a considerable amount of time[0m
+[0minfo  2023-05-23T21:38:40.958 nodeos    state_history_plugin.c:331    store_chain_state    ] Placing initial state in block 180635436[0m
