@@ -29,9 +29,14 @@ RUN wget https://telos-snapshots.s3.amazonaws.com/mainnet/telos-mainet-20211026-
 
 WORKDIR /root
 
-RUN wget https://github.com/telosnetwork/leap/releases/download/v4.0.0-1.0.0-dev/leap_4.0.0-1-0-0-ubuntu20.04_amd64.deb && \
-    apt-get install -y -f ./leap_4.0.0-1-0-0-ubuntu20.04_amd64.deb && \
-    rm -rf *.deb
+run git clone https://github.com/telosnetwork/leap.git -b optracer
+
+workdir /root/leap
+
+run scripts/install_deps.sh
+run scripts/pinned_build.sh deps build 6
+
+env PATH "$PATH:/root/target/build/bin"
 
 COPY logging.json logging.json
 
