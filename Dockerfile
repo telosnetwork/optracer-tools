@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -29,14 +29,19 @@ RUN wget https://telos-snapshots.s3.amazonaws.com/mainnet/telos-mainet-20211026-
 
 WORKDIR /root
 
-run git clone https://github.com/telosnetwork/leap.git -b optracer
+# run git clone https://github.com/telosnetwork/leap.git -b optracer
+# 
+# workdir /root/leap
+# 
+# run git submodule update --init --recursive
+# 
+# run scripts/install_deps.sh
+# run scripts/pinned_build.sh deps build 6
+# 
+# env PATH "$PATH:/root/leap/build/bin"
 
-workdir /root/leap
-
-run scripts/install_deps.sh
-run scripts/pinned_build.sh deps build 6
-
-env PATH "$PATH:/root/target/build/bin"
+copy leap_4.0.0-1-0-0-ubuntu22.04_amd64.deb leap_4.0.0-1-0-0-ubuntu22.04_amd64.deb
+run apt-get install -y ./leap_4.0.0-1-0-0-ubuntu22.04_amd64.deb
 
 COPY logging.json logging.json
 
