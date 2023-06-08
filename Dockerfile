@@ -40,8 +40,8 @@ WORKDIR /root
 # 
 # env PATH "$PATH:/root/leap/build/bin"
 
-copy leap_4.0.0-1-0-0-ubuntu22.04_amd64.deb leap_4.0.0-1-0-0-ubuntu22.04_amd64.deb
-run apt-get install -y ./leap_4.0.0-1-0-0-ubuntu22.04_amd64.deb
+copy leap_4.0.1-1-0-0-ubuntu22.04_amd64.deb leap_4.0.1-1-0-0-ubuntu22.04_amd64.deb
+run apt-get install -y ./leap_4.0.1-1-0-0-ubuntu22.04_amd64.deb
 
 COPY logging.json logging.json
 
